@@ -11,7 +11,7 @@ typedef bool adjmat[N][N];
 
 /*function to find if a path exists between two nodes in the graph*/
 bool path(adjmat A, int u, int v);
-/*function to print matrix too screen*/
+/*function to print matrix to screen*/
 void printADJ(adjmat A);
 /*function to get data for matrix*/
 void getADJ(adjmat A);
